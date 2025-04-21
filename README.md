@@ -1,13 +1,13 @@
-# Skateboard InEKF environment #
+# ROB530-Team29 #
 
+Jikai Zhang, Wenhan Jiangm, Hang Liu
 
 ## Installation
-```bash
-cd rsl_rl
-pip install -e .
-cd legged_gym
-pip install -e .
-```
+
+
+plz follow the drift installation and compilation here : https://github.com/UMich-CURLY/drift  
+and follow isaac gym installation here: https://github.com/leggedrobotics/legged_gym
+
 
 ### Usage ###
 
@@ -15,8 +15,6 @@ pip install -e .
 1. Play base policy:
 ```bash
 roscore
-conda activate rob530-final
-export LD_LIBRARY_PATH=/home/lau/anaconda3/envs/rob530-final/lib/
 # collect data
 python play.py --exptid=01-12-10
 # replay data
